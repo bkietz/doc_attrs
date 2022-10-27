@@ -1,0 +1,33 @@
+# Compiled source
+*.a
+*.dll
+*.o
+*.py[ocd]
+*.so
+*.so.*
+*.bundle
+*.dylib
+compile_commands.json
+build.ninja
+
+# Generated Visual Studio files
+*.vcxproj
+*.vcxproj.*
+*.sln
+*.iml
+
+# Linux perf sample data
+perf.data
+perf.data.old
+
+.vscode
+.idea/
+.gdb_history
+*.orig
+.*.swp
+.*.swo
+
+# macOS
+.DS_Store
+.cache
+build/

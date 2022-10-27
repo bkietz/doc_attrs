@@ -1,0 +1,4 @@
+llvmdev>=15
+clangdev>=15
+cmake
+ninja

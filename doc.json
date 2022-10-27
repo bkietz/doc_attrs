@@ -1,0 +1,35 @@
+[
+{
+"type": "description",
+"declaration": {"name": "basic::greetings::hello", "location": { "line": 17, "column": 1, "file": "test.cc" }},
+"text": "\n  classic greeting, usually used with `world`\n  aka `greetings::world`\n  aka `basic::greetings::world`\n  aka `::basic::greetings::world`\n  `hello(\"foo\")`\n",
+"text_range": [{ "line": 10, "column": 31, "file": "test.cc" }, { "line": 16, "column": 1, "file": "test.cc" }],
+"references": [
+{
+"text": "world",
+"location": [{ "line": 11, "column": 40, "file": "test.cc" }, { "line": 11, "column": 45, "file": "test.cc" }],
+"referenced_declaration": {"name": "basic::greetings::world", "location": { "line": 22, "column": 13, "file": "test.cc" }}
+}, {
+"text": "greetings::world",
+"location": [{ "line": 12, "column": 8, "file": "test.cc" }, { "line": 12, "column": 24, "file": "test.cc" }],
+"referenced_declaration": {"name": "basic::greetings::world", "location": { "line": 22, "column": 13, "file": "test.cc" }}
+}, {
+"text": "basic::greetings::world",
+"location": [{ "line": 13, "column": 8, "file": "test.cc" }, { "line": 13, "column": 31, "file": "test.cc" }],
+"referenced_declaration": {"name": "basic::greetings::world", "location": { "line": 22, "column": 13, "file": "test.cc" }}
+}, {
+"text": "::basic::greetings::world",
+"location": [{ "line": 14, "column": 8, "file": "test.cc" }, { "line": 14, "column": 33, "file": "test.cc" }],
+"referenced_declaration": null
+}, {
+"text": "hello(\"foo\")",
+"location": [{ "line": 15, "column": 4, "file": "test.cc" }, { "line": 15, "column": 16, "file": "test.cc" }],
+"referenced_declaration": null
+}]
+},
+{
+"type": "usage",
+"text": "{ hello(world); }",
+"text_range": [{ "line": 24, "column": 25, "file": "test.cc" }, { "line": 24, "column": 41, "file": "test.cc" }],
+
+]
